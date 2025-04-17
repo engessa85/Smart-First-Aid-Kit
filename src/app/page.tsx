@@ -3,7 +3,9 @@ import { QRCodeCanvas } from "qrcode.react";
 import Head from "next/head";
 
 export default function Home() {
-  const url = "http://localhost:3000/info";
+  // const url = "http://localhost:3000/info";
+  const url = "https://smart-first-aid-kit.vercel.app/info";
+
   return (
     <>
       <Head>
